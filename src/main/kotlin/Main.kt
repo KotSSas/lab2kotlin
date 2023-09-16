@@ -25,7 +25,7 @@ fun main() {
 fun f(x:Double) = sin(x) + cos(x)
 
 
-//Смугляков
+
 fun var5calcS(x:Double, a:Double, b: Double) : Double  =  a/sqrt(x+b) + x.pow(3) * (tan((x+b).pow(2)).pow(2))
 
 fun var5calcQ(x: Double, a:Double, b:Double) : Double = (b*x.pow(2) - a )/ (E.pow(a*x) - 1)
